@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#413e4f</color>
+    <color name="colorPrimaryDark">#413e4f</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorBackground">#413e4f</color>
+    <color name="colorText">#F8F8FA</color>
+    <color name="colorTextHint">#697597</color>
+    <color name="lightgray">#ededed</color>
+    <color name="spend">#FF5722</color>
+    <color name="colorLiner">#697597</color>
+    <color name="description">#a9a9a9</color>
+    <color name="button_pressed_background">#413e4f</color>
+    <color name="button_enabled_background">#413e4f</color>
+    <color name="button_disabled_background">#D8D8D8</color>
+
+    <color name="colorSecondary">#413e4f</color>
+    <color name="colorSecondaryDark">#413e4f</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="shadow">#E0E0E0</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="doc_scan_background">#FF000000</color>
+    <color name="widget_background">#55000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="toolbarcolor">#413e4f</color>
+    <color name="black">#000000</color>
+</resources>

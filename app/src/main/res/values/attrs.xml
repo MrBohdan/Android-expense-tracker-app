@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="cameView_MaskView">
+        <attr name="maskview_line_color" format="color"/>
+        <attr name="maskview_line_stroke" format="dimension"/>
+        <attr name="maskview_line_alpha" format="integer"/>
+        <attr name="maskview_area_bg_color" format="color"/>
+        <attr name="maskview_area_bg_alpha" format="integer"/>
+    </declare-styleable>
+</resources>

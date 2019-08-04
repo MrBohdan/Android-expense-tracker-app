@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="@dimen/widget_margin"
+              android:background="@color/widget_background">
+
+    <Button
+            android:id="@+id/wb1home"
+            android:text="@string/scan"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin10"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:elevation="@dimen/gap"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size"
+            android:typeface="monospace" />
+
+
+
+    <Button
+            android:id="@+id/wb3gallery"
+            android:text="@string/docs"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/margin10"
+            android:drawableRight="@drawable/ic_gallery"
+            android:gravity="center"
+            android:enabled="true"
+            android:elevation="@dimen/gap"
+            android:textSize="@dimen/text_size"
+            android:typeface="monospace" />
+
+</LinearLayout>

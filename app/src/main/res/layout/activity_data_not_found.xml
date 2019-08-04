@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:paddingBottom="20dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/addBill"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:background="@drawable/layout_rounded"
+                tools:context="activities.LoginActivity">
+    <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:orientation="vertical"
+    >
+
+        <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/textViewLinkCongratulations"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="@string/text_data_was_not_recognized"
+                android:textSize="25sp"/>
+
+        <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/textViewLinkCreated"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center_horizontal"
+                android:text="@string/text_dont_worry"
+                android:textColor="@color/description"
+                android:textSize="23sp"/>
+
+        <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/appCompatTextViewCancelLink"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/text_close"
+                android:textSize="16dp" />
+    </android.support.v7.widget.LinearLayoutCompat>
+</RelativeLayout>

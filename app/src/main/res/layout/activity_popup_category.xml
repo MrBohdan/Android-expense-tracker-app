@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:paddingBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:background="@drawable/layout_rounded"
+                tools:context="activities.LoginActivity">
+    <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:orientation="vertical"
+    >
+        <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/textViewAdd_Category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_add_category"
+                android:padding="10dp"
+                android:textSize="20sp"/>
+
+        <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+        >
+
+            <android.support.design.widget.TextInputEditText
+                    android:id="@+id/textInputEditTextCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_category"
+                    android:layout_marginTop="30dp"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColor="@android:color/white"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.v7.widget.AppCompatButton
+                android:id="@+id/appCompatButtonAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_rounded"
+                android:text="@string/text_add"
+                android:textSize="19dp"/>
+        <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/appCompatTextViewCancelLink"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/text_cancel"
+                android:textSize="16dp" />
+    </android.support.v7.widget.LinearLayoutCompat>
+</RelativeLayout>

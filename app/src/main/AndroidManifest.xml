@@ -1,0 +1,116 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+          package="com.aru.expapp"
+          android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature android:name="android.hardware.camera"  android:required="false" />
+    <uses-feature android:name="android.graphics.Camera"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
+
+    <application
+            android:name="global.GlobalProperties"
+            android:allowBackup="true"
+            android:fullBackupContent="false"
+            android:hardwareAccelerated="false"
+            android:icon="@drawable/icon"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <activity
+                android:name="activities.LoginActivity"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:screenOrientation="portrait"
+                android:theme="@style/activity_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="activities.DocumentScannerActivity"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:label="@string/title_activity_gallery"
+                android:screenOrientation="portrait"
+                android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.media.action.IMAGE_CAPTURE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+                android:name="com.google.android.gms.vision.DEPENDENCIES"
+                android:value="ocr"/>
+
+
+        <activity
+                android:name="activities.GalleryGridActivity"
+                android:configChanges="orientation|keyboardHidden|screenSize"
+                android:largeHeap="true"
+                android:label="@string/title_activity_gallery"
+                android:screenOrientation="portrait"
+                android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+                android:name="charts_activities.ReportsPieChartActivity"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="activities.FullScreenViewActivity"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="charts_activities.ReportsRadarChart"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="adapters.BillRecognizeAdapter"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="activities.BillDialogActivity"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="activities.BillsListActivity"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="activities.RegisterActivity"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="activities.CategoriesActivity"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="activities.SuccessfullyLoginActivity"
+                android:screenOrientation="portrait"/>
+
+        <activity
+                android:name="charts_activities.ReportsBarChart"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="activities.SettingsActivity"
+                android:screenOrientation="portrait"/>
+        <activity android:name="activities.Tesseract"/>
+        <activity
+                android:name="activities.HomeActivity"
+                android:screenOrientation="portrait"/>
+
+    </application>
+
+
+</manifest>

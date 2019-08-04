@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@android:id/text1"
+          style="?android:attr/spinnerItemStyle"
+          android:singleLine="true"
+          android:layout_width="match_parent"
+          android:ellipsize="marquee"
+          android:layout_height="wrap_content"
+          android:gravity="start|end"
+          android:orientation="vertical"
+          android:text="@string/hint_select"
+          android:minHeight="40dp"
+          android:background="@color/colorPrimary"
+          android:textColor="@color/colorAccent">
+        </android.support.v7.widget.AppCompatTextView>

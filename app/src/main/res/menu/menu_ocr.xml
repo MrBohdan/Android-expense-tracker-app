@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="ocr_processes.OcrCaptureActivity"
+      app:itemIconTint="@color/colorBackground"
+        app:itemBackground="@android:color/transparent"
+      app:popupTheme="@style/MenuTheme">
+    <item
+            android:id="@+id/saved_texts"
+            android:icon="@drawable/view_headline"
+            android:orderInCategory="1"
+            android:title="@string/saved_texts_list"
+            app:showAsAction="always" />
+
+    <group android:checkableBehavior="single"
+           app:itemIconTint="@color/black"
+           app:itemTextColor="@color/colorBackground">
+
+        <item
+                android:id="@+id/tblocks"
+                android:icon="@drawable/message"
+                android:orderInCategory="1"
+                android:title="@string/detect_text_blocks"
+                app:showAsAction="never" />
+        <item
+                android:id="@+id/tlines"
+                android:icon="@drawable/message_text"
+                android:orderInCategory="1"
+                android:title="@string/detect_text_lines"
+                android:checked="true"
+                app:showAsAction="never"/>
+        <item
+                android:id="@+id/twords"
+                android:icon="@drawable/message_processing"
+                android:orderInCategory="1"
+                android:title="@string/detect_text_words"
+                app:showAsAction="never" />
+
+    </group>
+
+</menu>
