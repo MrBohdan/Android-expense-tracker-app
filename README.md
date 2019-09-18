@@ -1,9 +1,9 @@
-# Basic Android expense tracker app
-# Download APK
+# Basic Android expense tracker app.
+# Download APK.
 https://drive.google.com/open?id=10RRZWr6g493cwiZUAqhisXF1HmQZrWYH
-# Download project
+# Download project.
 https://drive.google.com/open?id=1uLw6IoytkjmtUmqq8DtSncYspROnOAfT
-# Screenshots
+# Screenshots.
 <img src="https://github.com/MrBudda/Android-expense-tracker-app/blob/master/samples/1.jpeg" width="18%"></img> <img src="https://github.com/MrBudda/Android-expense-tracker-app/blob/master/samples/2.jpeg" width="18%"></img> <img src="https://github.com/MrBudda/Android-expense-tracker-app/blob/master/samples/3.jpeg" width="18%">
 </img> <img src="https://github.com/MrBudda/Android-expense-tracker-app/blob/master/samples/4.jpeg" width="18%">
 </img> <img src="https://github.com/MrBudda/Android-expense-tracker-app/blob/master/samples/5.jpeg" width="18%">
@@ -27,7 +27,7 @@ https://drive.google.com/open?id=1uLw6IoytkjmtUmqq8DtSncYspROnOAfT
 </img> <img src="https://github.com/MrBudda/Android-expense-tracker-app/blob/master/samples/22.jpg" width="18%">
 </img> <img src="https://github.com/MrBudda/Android-expense-tracker-app/blob/master/samples/23.jpg" width="18%">
 </img> 
-# References
+# References.
 1. https://github.com/rmtheis/tess-two
 2. https://github.com/opencv/opencv/tree/master/samples/android
 3. https://github.com/zxing/zxing
