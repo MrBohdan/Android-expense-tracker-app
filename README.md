@@ -1,4 +1,4 @@
-# Basic Android expense tracker app.
+# Basic Android expense tracker app with OCR receipt scanner.
 # Download APK.
 https://drive.google.com/open?id=10RRZWr6g493cwiZUAqhisXF1HmQZrWYH
 # Download project.
